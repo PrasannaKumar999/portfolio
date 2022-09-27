@@ -1,0 +1,342 @@
+.navbar {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  background-color: lightblue;
+}
+.navbar-btn {
+  margin-left: 50vw;
+  display: flex;
+  justify-content: space-around;
+  gap: 5vw;
+}
+
+.btn-highlighted:hover {
+  background-color: tomato;
+  color: white;
+}
+.profile-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10%;
+  min-height: fit-content;
+  padding-bottom: 5vh;
+  padding-top: 2vh;
+}
+.profile-parent {
+  display: flex;
+  align-items: center;
+  color: aliceblue;
+}
+.profile-details-name {
+  font-size: 24px;
+  font-family: "Poppins SemiBold";
+}
+.profile-details-role {
+  display: flex;
+  flex-direction: column;
+  margin: 14px 0 24px 0;
+}
+.profile-details h1 {
+  font-size: 40px;
+  font-family: cursive;
+}
+.primary-text {
+  color: white;
+}
+.highlighted-text {
+  color: tomato;
+}
+.profile-role-tagline {
+  font-size: 19px;
+  margin: 5px 0 0 0;
+}
+
+.btn-danger {
+  margin: 0 0 0 28px;
+  background-color: cornsilk;
+  color: tomato;
+}
+.profile-options .btn-danger:hover {
+  margin: 0 0 0 28px;
+  background-color: cornsilk;
+  color: #111;
+}
+.profile-picture {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 1px 0px 0px;
+  border-radius: 50%;
+  height: 380px;
+  width: 380px;
+  margin: 0 0px 0 100px;
+}
+.profile-picture-bg {
+  height: 92%;
+  width: 92%;
+  background-image: url("./assests/profile.png");
+  background-size: cover;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.AboutMe {
+  margin: 0 10vw 0 17vw;
+  color: white;
+  word-spacing: 15px;
+  line-height: 5vh;
+}
+.text-AboutMe {
+  box-shadow: 0 10px 5px -6px green;
+  color: white;
+  border-bottom: 1px solid yellow;
+}
+i {
+  color: yellow;
+  padding-top: 50px;
+  font-size: 36px;
+}
+.line {
+  margin: 0 10vw 0 17vw;
+  color: white;
+  border-bottom: 2px solid yellow;
+  line-height: 80px;
+}
+.project-container {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.projects {
+  width: 30vw;
+  overflow: hidden;
+  position: relative;
+  margin: 0 10vw 0 17vw;
+  color: white;
+  transition: transform 0.2s;
+  text-align: center;
+  /* background-color: rgb(123, 123, 247); */
+  /* box-shadow: 0px 0px 10px rgb(123, 123, 247); */
+  border-radius: 10px;
+}
+.projects:hover {
+  overflow: hidden;
+  box-shadow: 0px 0px 10px rgb(123, 123, 247);
+  transform: scale(1.2);
+}
+.project-img {
+  width: 100%;
+}
+.other_project-text {
+  margin: 10vh 10vw 0 17vw;
+  color: white;
+  border-bottom: 2px solid yellow;
+}
+
+.otherProjects {
+  margin: 10vh 10vw 0 17vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 4vw;
+}
+.projectrow {
+  width: 20vw;
+  border-radius: 20px;
+  transition: transform 0.2s;
+  color: white;
+  text-align: center;
+}
+.projectrow :hover {
+  width: 20vw;
+  border-radius: 20px;
+  transform: scale(1.2);
+}
+.resume {
+  margin: 10vh 10vw 0 17vw;
+  color: rgb(199, 190, 190);
+  line-height: 6vh;
+}
+.main-container {
+  min-height: 100vh;
+}
+.central-form {
+  max-width: 1100px;
+  padding: 10px;
+  display: flex;
+  border-radius: 12px;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #1f2235;
+  color: white;
+}
+.central-form h3 {
+  letter-spacing: 0.2rem;
+  margin-bottom: 20px;
+}
+.back-form {
+  max-width: 380px;
+  margin: 0 auto;
+}
+.back-form .img-back {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.img-back h5 {
+  letter-spacing: 0.3rem;
+  font-weight: 400;
+  font-size: 18px;
+  opacity: 0.5;
+}
+.back-form .img-back img {
+  width: 100%;
+  opacity: 0.5;
+}
+.central-form form {
+  width: auto;
+  display: flex;
+  color: black;
+  padding: 15px;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: -52px;
+  background-color: white;
+  border-radius: 12px;
+}
+form label {
+  margin-bottom: 5px;
+  color: #111;
+  letter-spacing: 0.2rem;
+}
+form input,
+textarea {
+  width: 100%;
+  border: 2px solid rgba(0, 0, 0, 0);
+  outline: none;
+  background-color: rgba(230, 230, 230, 0.6);
+  padding: 0.5rem 1rem;
+  margin-bottom: 22px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+textarea:focus {
+  border: 2px solid rgba(30, 85, 250, 0.5);
+  background-color: white;
+}
+input:focus {
+  border: 2px solid rgba(30, 85, 250, 0.5);
+  background-color: white;
+}
+form button {
+  margin-top: 15px;
+  padding: 5px;
+  outline: none;
+  width: 160px;
+  border: 2px solid darkorange;
+  font-size: 16px;
+  border-radius: 20px;
+  background-color: #1f2235;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+form button:hover {
+  background-color: #1f2235;
+  transition: all ease-in;
+  border: 2px solid #1f2235;
+}
+.img-back {
+  flex: 1;
+  align-self: center;
+  margin-right: 20px;
+}
+form {
+  flex: 0.9;
+}
+.goToTop {
+  position: fixed;
+  bottom: 2vh;
+  right: 5vw;
+  color: white;
+  background-color: red;
+  border: 3px solid #73ad21;
+}
+@media screen and (max-width: 1110px) {
+  .profile-picture {
+    margin: 0 0 0 80px;
+  }
+  .profile-details-name {
+    font-size: 20px;
+  }
+  .profile-details-role.primary-text {
+    font-size: 12px;
+  }
+  .profile-options .btn {
+    width: 120px;
+    padding: 11px 0;
+    z-index: 700;
+  }
+}
+@media screen and (max-width: 910px) {
+  .profile-picture {
+    height: 320px;
+    width: 320px;
+    margin: 0 0 0 4px;
+  }
+}
+@media screen and (max-width: 810px) {
+  .profile-picture {
+    margin: 0 !important;
+  }
+  .profile-parent {
+    flex-direction: column-reverse;
+    margin: 40px 0 0 0;
+  }
+  .profile-options {
+    display: flex;
+    justify-content: space-between;
+  }
+  .profile-details {
+    margin: 25px 0 0 0;
+  }
+  .profile-options .highlighted-btn {
+    margin: 0 !important;
+  }
+  .profile-options,
+  .profile-details-role {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 370px) {
+  .profile-picture {
+    height: 275px;
+    width: 275px;
+    margin-top: -90px;
+  }
+  .profile-details {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 940px) {
+  .back-form {
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+  .img-back {
+    flex: 1;
+    align-self: center;
+    margin-right: 20px;
+  }
+  form {
+    flex: 0.9;
+  }
+}
